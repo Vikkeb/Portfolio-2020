@@ -3,5 +3,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Work+Sans:wght@100;300;400;600;700&display=swap');
 
 body {
-    font-family: "Work Sans", monospace;
+  font-family: "Work Sans", monospace;
+}
+
+.Header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 120px;
+ background-color: #BAD4E2;
+ width: 100%;
+}
+
+.Header h1 {
+  font-family: "Rancho";
+  font-size: 64px;
+  color: #fff;
+  text-shadow: 2px 3px 4px #5C8297;
+  margin-left: 100px;
+}
+
+.Menu {
+  margin-right: 100px;
+}
+
+.Menu a {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Section {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.Section h1 {
+  font-size: 64px;
+}
+
+.Section h2 {
+  text-transform: capitalize;
+  color: #949494;
+  font-size: 32px;
+}
+
+.Section p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.Description {
+  height: 300px;
+  width: 30vw;
+}
+
+.leovegas {
+  background-image: url("../img/leovegas.svg");
+  background-repeat: no-repeat;
+  background-size: 850px;
+  background-position: 70% 50%;
+}
+
+.leovegas h1 {
+  text-transform: uppercase;
+  color: #FD5C3C;
+}
+
+.leovegas h2 {
+}
+
+.leovegas p {
+}
+
+.leovegas img {
+  height: 850px;
+  margin-left: -200px:
+}
+
+.lifesymb {
+  background-color: #F0F0F0;
+}
+
+.lifesymb h1 {
+  margin-right: 300px;
+  font-weight: 400;
+}
+
+.lifesymb h2 {
+}
+
+.lifesymb p {
+}
+
+.lifesymb img {
+  padding-right: 100px;
+}
+
+.nallebudet {
+  background-image: url("../img/nallebudet.png");
+  background-repeat: no-repeat;
+  background-size: 480px;
+  background-position: 70% 50%;
+}
+
+.nallebudet h1 {
+  color: #521214;
 }
