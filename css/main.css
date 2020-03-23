@@ -1,3 +1,7 @@
 @import "reset.css";
 @import "animate.css";
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Work+Sans:wght@100;300;400;600;700&display=swap');
+
+body {
+    font-family: "Work Sans", monospace;
+}
