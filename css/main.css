@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "animate.css";
+@import "material-form.css";
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Work+Sans:wght@100;300;400;600;700&display=swap');
 
 body {
@@ -114,4 +115,101 @@ body {
 
 .nallebudet h1 {
   color: #521214;
+}
+
+.About {
+  margin-right: 50px;
+}
+
+.About h1 {
+ font-size: 36px;
+ font-weight: 400;
+ height: 85px;
+}
+
+.About p {
+  width: 570px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.About img {
+  width: 250px;
+}
+
+.exp-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.exp-wrapper h1 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.exp-divider {
+  width: 1px;
+  height: 400px;
+  background-color: #CFCFCF;
+}
+
+.experience {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 50px;
+}
+
+.education {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+
+.Experis {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+
+.Ericsson {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+
+.Sigma {
+  display: flex;
+  margin: 40px 0px 20px 0px;
+}
+
+.Tycho {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+
+.Linneaus {
+  display: flex;
+  margin: 40px 0px 20px 0px;
+}
+
+.summary {
+  height: 74px;
+  margin-left: 25px;
+  width: 200px;
+}
+
+.summary h1 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.summary h2 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.summary p {
+  font-size: 12px;
 }
