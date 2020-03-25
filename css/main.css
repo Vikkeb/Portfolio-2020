@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "animate.css";
+@import "modaal.css";
 @import "material-form.css";
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Work+Sans:wght@100;300;400;600;700&display=swap');
 
@@ -105,6 +106,11 @@ body {
   color: #000000;
   font-size: 18px;
   font-weight: 300;
+}
+
+.Section a {
+text-decoration: none;
+color: #000;
 }
 
 .Description {
@@ -318,4 +324,31 @@ body {
 
 .summary p {
   font-size: 12px;
+}
+
+.role {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.role h2 {
+  width: 100%;
+}
+
+.role p {
+  margin-right: 30px;
+}
+
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tools h2 {
+  width: 100%;
+}
+
+.tools p {
+  margin-right: 30px;
 }
