@@ -357,3 +357,8 @@ color: #000;
 .tools p {
   margin-right: 30px;
 }
+
+.img-gallery {
+  display: flex;
+  flex-direction: row;
+}
