@@ -5,6 +5,9 @@
 
 body {
   font-family: "Work Sans", monospace;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .Header {
@@ -12,7 +15,7 @@ body {
  justify-content: space-between;
  align-items: center;
  height: 120px;
- background-color: #BAD4E2;
+ background-color: #2d2d2d;
  width: 100%;
 }
 
@@ -20,7 +23,7 @@ body {
   font-family: "Rancho";
   font-size: 64px;
   color: #fff;
-  text-shadow: 2px 3px 4px #5C8297;
+  text-shadow: 2px 3px 4px #000000;
   margin-left: 100px;
 }
 
@@ -33,6 +36,35 @@ body {
   font-size: 20px;
   color: #fff;
   text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #F3F3F3;
+  height: 200px;
+  width: 100%;
+}
+
+.footer h1 {
+ font-weight: 400;
+}
+
+.footer p {
+ font-size: 12px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.social-icons img {
+  margin: 25px 10px 25px 10px;
+  width: 25px;
 }
 
 .Section {
@@ -61,60 +93,118 @@ body {
 
 .Description {
   height: 300px;
-  width: 30vw;
 }
 
-.leovegas {
-  background-image: url("../img/leovegas.svg");
-  background-repeat: no-repeat;
-  background-size: 850px;
-  background-position: 70% 50%;
-}
-
-.leovegas h1 {
-  text-transform: uppercase;
-  color: #FD5C3C;
-}
-
-.leovegas h2 {
-}
-
-.leovegas p {
-}
-
-.leovegas img {
-  height: 850px;
-  margin-left: -200px:
-}
-
-.lifesymb {
-  background-color: #F0F0F0;
-}
-
-.lifesymb h1 {
-  margin-right: 300px;
-  font-weight: 400;
-}
-
-.lifesymb h2 {
-}
-
-.lifesymb p {
-}
-
-.lifesymb img {
-  padding-right: 100px;
-}
-
-.nallebudet {
-  background-image: url("../img/nallebudet.png");
+.portfolio-ericsson {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  background-image: url("../img/ericsson_logo_xl.svg");
   background-repeat: no-repeat;
   background-size: 480px;
   background-position: 70% 50%;
 }
 
+.portfolio-ericsson h1 {
+  width: 20vw;
+  text-transform: uppercase;
+  color: #000;
+  margin-right: 250px;
+}
+
+.portfolio-ericsson h2 {
+  width: 20vw;
+  margin-right: 250px;
+}
+
+.portfolio-ericsson p {
+  width: 20vw;
+  margin-top: 25px;
+  margin-right: 250px;
+  margin-bottom: 100px;
+}
+
+.leovegas {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/leovegas.svg");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 35% 50%;
+}
+
+.leovegas h1 {
+  width: 20vw;
+  text-transform: uppercase;
+  color: #FD5C3C;
+  margin-left: 450px;
+}
+
+.leovegas h2 {
+  width: 20vw;
+  margin-left: 450px;
+}
+
+.leovegas p {
+  margin-top: 25px;
+  width: 20vw;
+  margin-left: 450px;
+  margin-bottom: 100px;
+}
+
+.lifesymb {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/lifesymb.png");
+  background-repeat: no-repeat;
+  background-size: 480px;
+  background-position: 70% 50%;
+  background-color: #F0F0F0;
+}
+
+.lifesymb h1 {
+  width: 20vw;
+  font-weight: 400;
+  margin-right: 250px;
+}
+
+.lifesymb h2 {
+  width: 20vw;
+  margin-right: 250px;
+}
+
+.lifesymb p {
+  margin-top: 25px;
+  width: 20vw;
+  margin-right: 250px;
+  margin-bottom: 100px;
+}
+
+.nallebudet {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/nallebudet.png");
+  background-repeat: no-repeat;
+  background-size: 480px;
+  background-position: 35% 50%;
+}
+
 .nallebudet h1 {
+  width: 20vw;
   color: #521214;
+  margin-left: 450px;
+}
+
+.nallebudet h2 {
+  width: 20vw;
+  margin-left: 450px;
+}
+
+.nallebudet p {
+  margin-top: 25px;
+  width: 20vw;
+  margin-left: 450px;
+  margin-bottom: 100px;
 }
 
 .About {
