@@ -38,6 +38,22 @@ body {
   text-decoration: none;
 }
 
+.read_button {
+  padding:  15px 25px 15px 25px;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  border:none;
+  transition: 0.2s;
+  font-size: 14px;
+  font-family: "Work Sans";
+}
+
+.read_button:hover {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  border: none;
+}
+
 .footer {
   display: flex;
   margin-top: auto;
