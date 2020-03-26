@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #F3F3F3;
+  height: 200px;
+  width: 100%;
+}
+
+.footer h1 {
+ font-weight: 400;
+}
+
+.footer p {
+ font-size: 12px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.social-icons img {
+  margin: 25px 10px 25px 10px;
+  width: 25px;
+}

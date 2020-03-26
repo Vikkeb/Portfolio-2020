@@ -1,0 +1,107 @@
+.Header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 120px;
+ background-color: #2d2d2d;
+ width: 100%;
+}
+
+.Header h1 {
+  font-family: "Rancho";
+  font-size: 64px;
+  color: #fff;
+  text-shadow: 2px 3px 4px #000000;
+}
+
+
+@media all and (min-width: 1001px) {
+  .Header {
+   justify-content: space-between;
+   align-items: center;
+   height: 120px;
+   width: 100%;
+  }
+
+  .Header h1 {
+    font-family: "Rancho";
+    font-size: 64px;
+    color: #fff;
+    text-shadow: 2px 3px 4px #000000;
+    margin-left: 100px;
+  }
+
+  .Menu {
+    margin-right: 100px;
+  }
+
+  .Menu a {
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+  .Header {
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   height: 120px;
+   width: 100%;
+  }
+
+  .Header h1 {
+    font-family: "Rancho";
+    font-size: 64px;
+    color: #fff;
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 10px;
+  }
+
+  .Menu {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .Menu a {
+    margin: 10px;
+    font-size: 20px;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) {
+  .Header {
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   height: 120px;
+   width: 100%;
+  }
+
+  .Header h1 {
+    font-family: "Rancho";
+    font-size: 64px;
+    color: #fff;
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 10px;
+  }
+
+  .Menu {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .Menu a {
+    margin: 10px;
+    font-size: 20px;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+}

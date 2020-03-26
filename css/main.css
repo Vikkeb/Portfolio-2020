@@ -2,6 +2,8 @@
 @import "animate.css";
 @import "modaal.css";
 @import "material-form.css";
+@import "header.css";
+@import "footer.css";
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Work+Sans:wght@100;300;400;600;700&display=swap');
 
 body {
@@ -10,115 +12,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
-.Header {
- display: flex;
- justify-content: space-between;
- align-items: center;
- height: 120px;
- background-color: #2d2d2d;
- width: 100%;
-}
-
-.Header h1 {
-  font-family: "Rancho";
-  font-size: 64px;
-  color: #fff;
-  text-shadow: 2px 3px 4px #000000;
-}
-
-
-@media all and (min-width: 1001px) {
-  .Header {
-   justify-content: space-between;
-   align-items: center;
-   height: 120px;
-   width: 100%;
-  }
-
-  .Header h1 {
-    font-family: "Rancho";
-    font-size: 64px;
-    color: #fff;
-    text-shadow: 2px 3px 4px #000000;
-    margin-left: 100px;
-  }
-
-  .Menu {
-    margin-right: 100px;
-  }
-
-  .Menu a {
-    margin-left: 20px;
-    font-size: 20px;
-    color: rgba(255,255,255,0.8);
-    text-decoration: none;
-  }
-
-}
-
-@media all and (max-width: 1000px) and (min-width: 700px) {
-  .Header {
-   justify-content: space-between;
-   align-items: center;
-   flex-direction: column;
-   height: 120px;
-   width: 100%;
-  }
-
-  .Header h1 {
-    font-family: "Rancho";
-    font-size: 64px;
-    color: #fff;
-    text-shadow: 2px 3px 4px #000000;
-    margin-top: 10px;
-  }
-
-  .Menu {
-    margin-right: 0px;
-    margin-bottom: 15px;
-  }
-
-  .Menu a {
-    margin: 10px;
-    font-size: 20px;
-    color: rgba(255,255,255,0.8);
-    text-decoration: none;
-  }
-
-}
-
-@media all and (max-width: 699px) and (min-width: 520px) {
-  .Header {
-   justify-content: space-between;
-   align-items: center;
-   flex-direction: column;
-   height: 120px;
-   width: 100%;
-  }
-
-  .Header h1 {
-    font-family: "Rancho";
-    font-size: 64px;
-    color: #fff;
-    text-shadow: 2px 3px 4px #000000;
-    margin-top: 10px;
-  }
-
-  .Menu {
-    margin-right: 0px;
-    margin-bottom: 15px;
-  }
-
-  .Menu a {
-    margin: 10px;
-    font-size: 20px;
-    color: rgba(255,255,255,0.8);
-    text-decoration: none;
-  }
-
-}
-
 
 .read_button {
   padding:  15px 25px 15px 25px;
@@ -134,35 +27,6 @@ body {
   background-color: rgba(0,0,0,0.3);
   border-radius: 10px;
   border: none;
-}
-
-.footer {
-  display: flex;
-  margin-top: auto;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: #F3F3F3;
-  height: 200px;
-  width: 100%;
-}
-
-.footer h1 {
- font-weight: 400;
-}
-
-.footer p {
- font-size: 12px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: #000;
-}
-
-.social-icons img {
-  margin: 25px 10px 25px 10px;
-  width: 25px;
 }
 
 .Section {
@@ -249,6 +113,58 @@ color: #000;
     margin-bottom: 100px;
   }
 
+  .lifesymb {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/lifesymb.png");
+    background-repeat: no-repeat;
+    background-size: 480px;
+    background-position: 70% 50%;
+    background-color: #F0F0F0;
+  }
+
+  .lifesymb h1 {
+    width: 500px;
+    font-weight: 400;
+    margin-right: 250px;
+  }
+
+  .lifesymb h2 {
+    width: 500px;
+    margin-right: 250px;
+  }
+
+  .lifesymb p {
+    margin-top: 25px;
+    width: 500px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+  }
+
+  .nallebudet {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/nallebudet.png");
+    background-repeat: no-repeat;
+    background-size: 480px;
+    background-position: 20% 50%;
+  }
+
+  .nallebudet h1 {
+    width: 500px;
+    color: #521214;
+  }
+
+  .nallebudet h2 {
+    width: 500px;
+  }
+
+  .nallebudet p {
+    margin-top: 25px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
+
 }
 
 @media all and (max-width: 1000px) and (min-width: 700px) {
@@ -297,6 +213,55 @@ color: #000;
   }
 
   .leovegas p {
+    margin-top: 25px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
+
+  .lifesymb {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/lifesymb.png");
+    background-repeat: no-repeat;
+    background-size: 480px;
+    background-position: 70% 50%;
+    background-color: #F0F0F0;
+  }
+
+  .lifesymb h1 {
+    width: 500px;
+    font-weight: 400;
+    margin-right: 250px;
+  }
+
+  .lifesymb h2 {
+    width: 500px;
+    margin-right: 250px;
+  }
+
+  .lifesymb p {
+    margin-top: 25px;
+    width: 500px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+  }
+
+  .nallebudet {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .nallebudet h1 {
+    width: 500px;
+    color: #521214;
+  }
+
+  .nallebudet h2 {
+    width: 500px;
+  }
+
+  .nallebudet p {
     margin-top: 25px;
     width: 500px;
     margin-bottom: 100px;
@@ -356,61 +321,55 @@ color: #000;
     margin-bottom: 100px;
   }
 
-}
+  .lifesymb {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/lifesymb.png");
+    background-repeat: no-repeat;
+    background-size: 480px;
+    background-position: 70% 50%;
+    background-color: #F0F0F0;
+  }
 
-.lifesymb {
-  display: flex;
-  flex-direction: column;
-  background-image: url("../img/lifesymb.png");
-  background-repeat: no-repeat;
-  background-size: 480px;
-  background-position: 70% 50%;
-  background-color: #F0F0F0;
-}
+  .lifesymb h1 {
+    width: 500px;
+    font-weight: 400;
+    margin-right: 250px;
+  }
 
-.lifesymb h1 {
-  width: 500px;
-  font-weight: 400;
-  margin-right: 250px;
-}
+  .lifesymb h2 {
+    width: 500px;
+    margin-right: 250px;
+  }
 
-.lifesymb h2 {
-  width: 500px;
-  margin-right: 250px;
-}
+  .lifesymb p {
+    margin-top: 25px;
+    width: 500px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+  }
 
-.lifesymb p {
-  margin-top: 25px;
-  width: 500px;
-  margin-right: 250px;
-  margin-bottom: 100px;
-}
+  .nallebudet {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+  }
 
-.nallebudet {
-  display: flex;
-  flex-direction: column;
-  background-image: url("../img/nallebudet.png");
-  background-repeat: no-repeat;
-  background-size: 480px;
-  background-position: 35% 50%;
-}
+  .nallebudet h1 {
+    width: 500px;
+    color: #521214;
+  }
 
-.nallebudet h1 {
-  width: 500px;
-  color: #521214;
-  margin-left: 450px;
-}
+  .nallebudet h2 {
+    width: 500px;
+  }
 
-.nallebudet h2 {
-  width: 500px;
-  margin-left: 450px;
-}
+  .nallebudet p {
+    margin-top: 25px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
 
-.nallebudet p {
-  margin-top: 25px;
-  width: 500px;
-  margin-left: 450px;
-  margin-bottom: 100px;
 }
 
 .active{
