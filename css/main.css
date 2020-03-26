@@ -4,7 +4,7 @@
 @import "material-form.css";
 @import "header.css";
 @import "footer.css";
-@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Work+Sans:wght@100;300;400;600;700&display=swap');
+@import "../fonts/fonts.css";
 
 body {
   font-family: "Work Sans", monospace;
@@ -67,23 +67,25 @@ color: #000;
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background-color: #eee;
-    background-image: url("../img/ericsson_logo_xl.svg");
-    background-repeat: no-repeat;
-    background-position: 110% 60%;
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .portfolio-ericsson h1 {
+    color: #fff;
     width: 500px;
     text-transform: uppercase;
-    color: #000;
   }
 
   .portfolio-ericsson h2 {
     width: 500px;
+    font-weight: 400;
+    color: #fff;
   }
 
   .portfolio-ericsson p {
+    color: #fff;
     width: 500px;
     margin-top: 25px;
     margin-bottom: 100px;
@@ -92,9 +94,7 @@ color: #000;
   .leovegas {
     display: flex;
     flex-direction: column;
-    background-image: url("../img/leovegas.svg");
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
+    background: url("../img/leovegas.svg") 0% 50% no-repeat, #F3F3F3;
   }
 
   .leovegas h1 {
@@ -116,28 +116,25 @@ color: #000;
   .lifesymb {
     display: flex;
     flex-direction: column;
-    background-image: url("../img/lifesymb.png");
     background-repeat: no-repeat;
-    background-size: 480px;
-    background-position: 70% 50%;
-    background-color: #F0F0F0;
+    background: url("../img/lifesymb.png") 80% 50% no-repeat, #F0F0F0;
   }
 
   .lifesymb h1 {
     width: 500px;
     font-weight: 400;
-    margin-right: 250px;
+
   }
 
   .lifesymb h2 {
     width: 500px;
-    margin-right: 250px;
+
   }
 
   .lifesymb p {
     margin-top: 25px;
     width: 500px;
-    margin-right: 250px;
+
     margin-bottom: 100px;
   }
 
@@ -146,8 +143,8 @@ color: #000;
     flex-direction: column;
     background-image: url("../img/nallebudet.png");
     background-repeat: no-repeat;
-    background-size: 480px;
-    background-position: 20% 50%;
+
+    background-position: 15% 50%;
   }
 
   .nallebudet h1 {
@@ -221,28 +218,25 @@ color: #000;
   .lifesymb {
     display: flex;
     flex-direction: column;
-    background-image: url("../img/lifesymb.png");
-    background-repeat: no-repeat;
-    background-size: 480px;
-    background-position: 70% 50%;
-    background-color: #F0F0F0;
+    background-image: none;
+    background-color: #EEEEEE;
   }
 
   .lifesymb h1 {
     width: 500px;
     font-weight: 400;
-    margin-right: 250px;
+
   }
 
   .lifesymb h2 {
     width: 500px;
-    margin-right: 250px;
+
   }
 
   .lifesymb p {
     margin-top: 25px;
     width: 500px;
-    margin-right: 250px;
+
     margin-bottom: 100px;
   }
 
@@ -324,28 +318,25 @@ color: #000;
   .lifesymb {
     display: flex;
     flex-direction: column;
-    background-image: url("../img/lifesymb.png");
-    background-repeat: no-repeat;
-    background-size: 480px;
-    background-position: 70% 50%;
-    background-color: #F0F0F0;
+    background-image: none;
+    background-color: #EEEEEE;
   }
 
   .lifesymb h1 {
     width: 500px;
     font-weight: 400;
-    margin-right: 250px;
+
   }
 
   .lifesymb h2 {
     width: 500px;
-    margin-right: 250px;
+
   }
 
   .lifesymb p {
     margin-top: 25px;
     width: 500px;
-    margin-right: 250px;
+
     margin-bottom: 100px;
   }
 
