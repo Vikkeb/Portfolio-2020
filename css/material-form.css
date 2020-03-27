@@ -1,5 +1,19 @@
-.contact_me_form {
-  width: 40vw;
+@media all and (max-width: 1000px) and (min-width: 700px) {
+  .contact_me_form {
+    width: 40vw;
+  }
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+  .contact_me_form {
+    width: 80vw !important;
+  }
+}
+
+@media all and (max-width: 699px) and (min-width: 300px) {
+  .contact_me_form {
+    width: 80vw !important;
+  }
 }
 
 .contact_me_form input[type="name"],
@@ -38,19 +52,4 @@ height: 150px;
 
 #thankyou_message h2 {
 padding-bottom: 10px;
-}
-
-
-@media all and (max-width: 1000px) and (min-width: 700px) {
-  .contact_me_form {
-    width: 80vw !important;
-  }
-
-}
-
-@media all and (max-width: 699px) and (min-width: 300px) {
-  .contact_me_form {
-    width: 80vw !important;
-  }
-
 }
