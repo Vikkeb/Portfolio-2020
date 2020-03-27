@@ -16,9 +16,7 @@
   }
 }
 
-.contact_me_form input[type="name"],
-.contact_me_form input[type="email"],
-.contact_me_form textarea {
+.contact_me_form input[type="name"], .contact_me_form input[type="email"], .contact_me_form textarea {
     -webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
@@ -39,9 +37,7 @@
     border: 1px solid #ccc;
 }
 
-.contact_me_form input[type="name"]:focus,
-.contact_me_form input[type="email"]:focus,
-.contact_me_form textarea:focus {
+.contact_me_form input[type="name"]:focus, .contact_me_form input[type="email"]:focus, .contact_me_form textarea:focus {
     box-shadow: 0 0 5px #2196F3;
     border: 1px solid #2196F3;
 }
