@@ -265,7 +265,7 @@ color: #000;
 
 }
 
-@media all and (max-width: 699px) and (min-width: 520px) {
+@media all and (max-width: 699px) and (min-width: 300px) {
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
