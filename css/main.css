@@ -364,6 +364,29 @@ color: #000;
     margin-bottom: 100px;
   }
 
+  .exp-wrapper {
+    flex-direction: column;
+    margin-top: 50px !important;
+  }
+
+  .exp-wrapper h1 {
+    align-self: center !important;
+  }
+
+  .exp-divider {
+    display: none;
+  }
+
+  .experience {
+    margin-right: 0px !important;
+    height: 500px;
+  }
+
+  .education {
+    margin-left: 0px !important;
+    height: 400px;
+  }
+
 }
 
 .active{
