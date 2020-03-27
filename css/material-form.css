@@ -1,4 +1,4 @@
-@media all and (max-width: 1000px) and (min-width: 700px) {
+@media all and (min-width: 1001px) {
   .contact_me_form {
     width: 40vw;
   }
