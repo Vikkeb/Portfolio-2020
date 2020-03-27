@@ -283,6 +283,7 @@ color: #000;
   }
 
   .portfolio-ericsson h1 {
+    font-size: 48px;
     width: 80vw;
     text-transform: uppercase;
     color: #fff;
@@ -310,6 +311,7 @@ color: #000;
   }
 
   .leovegas h1 {
+    font-size: 48px;
     width: 80vw;
     text-transform: uppercase;
     color: #FD5C3C;
@@ -334,6 +336,7 @@ color: #000;
   }
 
   .lifesymb h1 {
+    font-size: 48px;
     width: 80vw;
     font-weight: 400;
 
@@ -357,6 +360,7 @@ color: #000;
   }
 
   .nallebudet h1 {
+    font-size: 48px;
     width: 80vw;
     color: #521214;
   }
