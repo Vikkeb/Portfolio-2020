@@ -290,6 +290,7 @@ color: #000;
   }
 
   .portfolio-ericsson h2 {
+    font-size: 26px;
     width: 80vw;
     color: #fff;
   }
@@ -318,6 +319,7 @@ color: #000;
   }
 
   .leovegas h2 {
+    font-size: 26px;
     width: 80vw;
 
   }
@@ -343,6 +345,7 @@ color: #000;
   }
 
   .lifesymb h2 {
+    font-size: 26px;
     width: 80vw;
 
   }
@@ -360,18 +363,17 @@ color: #000;
   }
 
   .nallebudet h1 {
-    font-size: 4em;
+    font-size: 48px;
     width: 80vw;
     color: #521214;
   }
 
   .nallebudet h2 {
-    font-size: 3em;
+    font-size: 26px;
     width: 80vw;
   }
 
   .nallebudet p {
-    font-size: 1em;
     margin-top: 25px;
     width: 80vw;
     margin-bottom: 100px;
