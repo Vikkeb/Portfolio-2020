@@ -360,16 +360,18 @@ color: #000;
   }
 
   .nallebudet h1 {
-    font-size: 48px;
+    font-size: 4em;
     width: 80vw;
     color: #521214;
   }
 
   .nallebudet h2 {
+    font-size: 3em;
     width: 80vw;
   }
 
   .nallebudet p {
+    font-size: 1em;
     margin-top: 25px;
     width: 80vw;
     margin-bottom: 100px;
