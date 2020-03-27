@@ -263,6 +263,14 @@ color: #000;
     margin-bottom: 100px;
   }
 
+  .About p {
+    width: 340px !important;
+  }
+
+  .about-wrapper img {
+    width: 200px !important;
+  }
+
 }
 
 @media all and (max-width: 699px) and (min-width: 300px) {
@@ -387,6 +395,18 @@ color: #000;
     height: 400px;
   }
 
+  .About {
+    margin-right: 0px !important;
+  }
+
+  .About p {
+    width: 340px !important;
+  }
+
+  .about-wrapper img {
+    display: none;
+  }
+
 }
 
 .active{
@@ -409,10 +429,6 @@ color: #000;
   font-size: 21px;
   font-weight: 300;
   line-height: 140%;
-}
-
-.About img {
-  width: 250px;
 }
 
 .exp-wrapper {
