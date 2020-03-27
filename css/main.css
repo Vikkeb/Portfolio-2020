@@ -283,18 +283,18 @@ color: #000;
   }
 
   .portfolio-ericsson h1 {
-    width: 400px;
+    width: 80vw;
     text-transform: uppercase;
     color: #fff;
   }
 
   .portfolio-ericsson h2 {
-    width: 400px;
+    width: 80vw;
     color: #fff;
   }
 
   .portfolio-ericsson p {
-    width: 400px;
+    width: 80vw;
     margin-top: 25px;
     margin-bottom: 100px;
     color: #fff;
@@ -310,19 +310,19 @@ color: #000;
   }
 
   .leovegas h1 {
-    width: 400px;
+    width: 80vw;
     text-transform: uppercase;
     color: #FD5C3C;
   }
 
   .leovegas h2 {
-    width: 400px;
+    width: 80vw;
 
   }
 
   .leovegas p {
     margin-top: 25px;
-    width: 400px;
+    width: 80vw;
     margin-bottom: 100px;
   }
 
@@ -334,19 +334,19 @@ color: #000;
   }
 
   .lifesymb h1 {
-    width: 400px;
+    width: 80vw;
     font-weight: 400;
 
   }
 
   .lifesymb h2 {
-    width: 400px;
+    width: 80vw;
 
   }
 
   .lifesymb p {
     margin-top: 25px;
-    width: 400px;
+    width: 80vw;
     margin-bottom: 100px;
   }
 
@@ -357,17 +357,17 @@ color: #000;
   }
 
   .nallebudet h1 {
-    width: 400px;
+    width: 80vw;
     color: #521214;
   }
 
   .nallebudet h2 {
-    width: 400px;
+    width: 80vw;
   }
 
   .nallebudet p {
     margin-top: 25px;
-    width: 400px;
+    width: 80vw;
     margin-bottom: 100px;
   }
 
