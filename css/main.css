@@ -169,26 +169,27 @@ color: #000;
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background-color: #eee;
-    background-image: url("../img/ericsson_logo_xl.svg");
-    background-repeat: no-repeat;
-    background-position: 110% 60%;
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .portfolio-ericsson h1 {
     width: 500px;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
   }
 
   .portfolio-ericsson h2 {
     width: 500px;
+    color: #fff;
   }
 
   .portfolio-ericsson p {
     width: 500px;
     margin-top: 25px;
     margin-bottom: 100px;
+    color: #fff;
   }
 
   .leovegas {
@@ -268,26 +269,27 @@ color: #000;
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background-color: #eee;
-    background-image: url("../img/ericsson_logo_xl.svg");
-    background-repeat: no-repeat;
-    background-position: 120% 60%;
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .portfolio-ericsson h1 {
     width: 500px;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
   }
 
   .portfolio-ericsson h2 {
     width: 500px;
+    color: #fff;
   }
 
   .portfolio-ericsson p {
     width: 500px;
     margin-top: 25px;
     margin-bottom: 100px;
+    color: #fff;
   }
 
   .leovegas {
