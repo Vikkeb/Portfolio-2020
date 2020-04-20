@@ -68,9 +68,9 @@ color: #000;
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .portfolio-ericsson h1 {
@@ -95,7 +95,7 @@ color: #000;
   .leovegas {
     display: flex;
     flex-direction: column;
-    background: url("../img/leovegas.svg") 0% 50% no-repeat, #F3F3F3;
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376167/portfolio2020/leovegas.svg") 0% 50% no-repeat, #F3F3F3;
   }
 
   .leovegas h1 {
@@ -118,7 +118,7 @@ color: #000;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
-    background: url("../img/lifesymb.png") 80% 50% no-repeat, #F0F0F0;
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376168/portfolio2020/lifesymb.png") 80% 50% no-repeat, #F0F0F0;
   }
 
   .lifesymb h1 {
@@ -142,7 +142,7 @@ color: #000;
   .nallebudet {
     display: flex;
     flex-direction: column;
-    background-image: url("../img/nallebudet.png");
+    background-image: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376168/portfolio2020/nallebudet.png");
     background-repeat: no-repeat;
 
     background-position: 15% 50%;
@@ -169,9 +169,9 @@ color: #000;
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .portfolio-ericsson h1 {
@@ -195,7 +195,7 @@ color: #000;
   .leovegas {
     display: flex;
     flex-direction: column;
-    background-image: url("../img/leovegas.svg");
+    background-image: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376167/portfolio2020/leovegas.svg");
     background-repeat: no-repeat;
     background-size: 600px;
     background-position: center;
@@ -277,9 +277,9 @@ color: #000;
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background: url("../img/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .portfolio-ericsson h1 {
@@ -305,7 +305,7 @@ color: #000;
   .leovegas {
     display: flex;
     flex-direction: column;
-    background-image: url("../img/leovegas.svg");
+    background-image: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376167/portfolio2020/leovegas.svg");
     background-repeat: no-repeat;
     background-size: 600px;
     background-position: center;
