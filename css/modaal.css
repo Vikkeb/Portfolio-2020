@@ -211,6 +211,7 @@
 
 .modaal-content-container img {
 	margin-top: 25px;
+	padding: 10px;
 	width: 100%;
 }
 
@@ -225,7 +226,8 @@ margin-bottom: 10px;
 }
 
 .modaal-content-container p {
-
+line-height: 150%;
+font-weight: 300;
 }
 
 .modaal-confirm-wrap {
