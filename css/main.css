@@ -64,6 +64,10 @@ text-decoration: none;
 color: #000;
 }
 
+.section-content {
+  width: 600px;
+}
+
 .Description {
   height: 300px;
 }
@@ -71,111 +75,110 @@ color: #000;
 @media all and (min-width: 1001px) {
   .portfolio-ericsson {
     display: flex;
-    flex-direction: column;
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #454E6C;
   }
 
   .portfolio-ericsson h1 {
     color: #fff;
-    width: 500px;
     text-transform: uppercase;
   }
 
   .portfolio-ericsson h2 {
-    width: 500px;
     font-weight: 400;
     color: #fff;
   }
 
   .portfolio-ericsson p {
     color: #fff;
-    width: 500px;
     margin-top: 25px;
     margin-bottom: 100px;
   }
 
+  .portfolio-ericsson img {
+    height: 500px;
+    margin-left: 50px;
+  }
+
   .leovegas {
     display: flex;
-    flex-direction: column;
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376167/portfolio2020/leovegas.svg") 0% 50% no-repeat, #F3F3F3;
+    background-color: #F3F3F3;
   }
 
   .leovegas h1 {
-    width: 500px;
     text-transform: uppercase;
     color: #FD5C3C;
   }
 
   .leovegas h2 {
-    width: 500px;
   }
 
   .leovegas p {
     margin-top: 25px;
-    width: 500px;
     margin-bottom: 100px;
+  }
+
+  .leovegas img {
+    height: 500px;
+    margin-right: 50px;
   }
 
   .lifesymb {
     display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376168/portfolio2020/lifesymb.png") 80% 50% no-repeat, #F0F0F0;
+    background-color: #F0F0F0;
   }
 
   .lifesymb h1 {
-    width: 500px;
     font-weight: 400;
 
   }
 
   .lifesymb h2 {
-    width: 500px;
 
   }
 
   .lifesymb p {
     margin-top: 25px;
-    width: 500px;
-
     margin-bottom: 100px;
+  }
+
+  .lifesymb img {
+    height: 500px;
+    margin-left: 50px;
   }
 
   .nallebudet {
     display: flex;
-    flex-direction: column;
-    background-image: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376168/portfolio2020/nallebudet.png");
-    background-repeat: no-repeat;
-
-    background-position: 15% 50%;
   }
 
   .nallebudet h1 {
-    width: 500px;
     color: #521214;
   }
 
   .nallebudet h2 {
-    width: 500px;
   }
 
   .nallebudet p {
     margin-top: 25px;
-    width: 500px;
     margin-bottom: 100px;
+  }
+
+  .nallebudet img {
+    height: 500px;
+    margin-right: 50px;
   }
 
 }
 
 @media all and (max-width: 1000px) and (min-width: 700px) {
+
+  .section-content {
+    width: 80vw;
+  }
+      
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #606c88;  /* fallback for old browsers */
   }
 
   .portfolio-ericsson h1 {
@@ -196,29 +199,30 @@ color: #000;
     color: #fff;
   }
 
+  .portfolio-ericsson img {
+    display: none;
+  }
+
   .leovegas {
     display: flex;
     flex-direction: column;
-    background-image: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376167/portfolio2020/leovegas.svg");
-    background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: center;
   }
 
   .leovegas h1 {
-    width: 500px;
     text-transform: uppercase;
     color: #FD5C3C;
   }
 
   .leovegas h2 {
-    width: 500px;
   }
 
   .leovegas p {
     margin-top: 25px;
-    width: 500px;
     margin-bottom: 100px;
+  }
+
+  .leovegas img {
+    display: none;
   }
 
   .lifesymb {
@@ -229,21 +233,21 @@ color: #000;
   }
 
   .lifesymb h1 {
-    width: 500px;
     font-weight: 400;
 
   }
 
   .lifesymb h2 {
-    width: 500px;
 
   }
 
   .lifesymb p {
     margin-top: 25px;
-    width: 500px;
-
     margin-bottom: 100px;
+  }
+
+  .lifesymb img {
+    display: none;
   }
 
   .nallebudet {
@@ -253,18 +257,19 @@ color: #000;
   }
 
   .nallebudet h1 {
-    width: 500px;
     color: #521214;
   }
 
   .nallebudet h2 {
-    width: 500px;
   }
 
   .nallebudet p {
     margin-top: 25px;
-    width: 500px;
     margin-bottom: 100px;
+  }
+
+  .nallebudet img {
+    display: none;
   }
 
   .About p {
@@ -278,12 +283,17 @@ color: #000;
 }
 
 @media all and (max-width: 699px) and (min-width: 300px) {
+
+  .section-content {
+    width: 80vw;
+  }
+
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, #606c88;  /* fallback for old browsers */
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376165/portfolio2020/ericsson_logo_xl.svg") 80% 50% no-repeat, linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #606c88;  /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .portfolio-ericsson h1 {
@@ -306,13 +316,13 @@ color: #000;
     color: #fff;
   }
 
+  .portfolio-ericsson img {
+    display: none;
+  }
+
   .leovegas {
     display: flex;
     flex-direction: column;
-    background-image: url("https://res.cloudinary.com/vikkeb/image/upload/v1587376167/portfolio2020/leovegas.svg");
-    background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: center;
   }
 
   .leovegas h1 {
@@ -333,6 +343,10 @@ color: #000;
     width: 80vw;
     margin-bottom: 100px;
   }
+
+  .leovegas img {
+      display: none;
+    }
 
   .lifesymb {
     display: flex;
@@ -360,6 +374,11 @@ color: #000;
     margin-bottom: 100px;
   }
 
+  .lifesymb img {
+      display: none;
+    }
+
+
   .nallebudet {
     display: flex;
     flex-direction: column;
@@ -381,6 +400,10 @@ color: #000;
     margin-top: 25px;
     width: 80vw;
     margin-bottom: 100px;
+  }
+
+  .nallebudet img {
+    display: none;
   }
 
   .exp-wrapper {
