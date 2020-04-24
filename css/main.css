@@ -174,11 +174,11 @@ color: #000;
   .section-content {
     width: 80vw;
   }
-      
+
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background-color: #606c88;  /* fallback for old browsers */
+    background-color: #454E6C;
   }
 
   .portfolio-ericsson h1 {
@@ -291,9 +291,7 @@ color: #000;
   .portfolio-ericsson {
     display: flex;
     flex-direction: column;
-    background-color: #606c88;  /* fallback for old browsers */
-    background-color: -webkit-linear-gradient(to left, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
-    background-color: linear-gradient(to left, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #454E6C;
   }
 
   .portfolio-ericsson h1 {
