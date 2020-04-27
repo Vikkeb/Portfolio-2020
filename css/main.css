@@ -18,7 +18,7 @@ body {
   top: 120px !important;
 }
 
-.content {
+#content {
   padding-top: 120px;
 }
 
@@ -171,6 +171,10 @@ color: #000;
     margin-right: 50px;
   }
 
+  .about-wrapper img {
+    margin-left: 50px;
+  }
+
 }
 
 @media all and (max-width: 1000px) and (min-width: 700px) {
@@ -276,13 +280,10 @@ color: #000;
     display: none;
   }
 
-  .About p {
-    width: 340px !important;
+  .about-wrapper img {
+    display: none;
   }
 
-  .about-wrapper img {
-    width: 200px !important;
-  }
 
 }
 
@@ -450,10 +451,6 @@ color: #000;
   color: rgba(255,255,255,1) !important
 }
 
-.About {
-  margin-right: 50px;
-}
-
 .About h1 {
  font-size: 36px;
  font-weight: 400;
@@ -461,7 +458,6 @@ color: #000;
 }
 
 .About p {
-  width: 570px;
   font-size: 21px;
   font-weight: 300;
   line-height: 140%;
