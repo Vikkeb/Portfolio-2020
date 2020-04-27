@@ -80,7 +80,25 @@ color: #000;
 @media all and (min-width: 1001px) {
   .portfolio-ericsson {
     display: flex;
+  }
+
+  .ericsson-bg {
+    position: absolute;
+    width: 100vw;
+    height: 600px;
+    background: url(https://res.cloudinary.com/vikkeb/image/upload/v1588021839/noc-screen-with-people-89816crop0183486883620resize28801200autoorientbackground23ffffffquality90stripextensionjpgid10_s1hcij.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ericsson-bg::after {
+    content:"";
+    position: absolute;
+    width: 100vw;
+    height: 600px;
     background-color: #454E6C;
+    opacity: 0.4;
   }
 
   .portfolio-ericsson h1 {
@@ -102,19 +120,29 @@ color: #000;
   .portfolio-ericsson img {
     height: 500px;
     margin-left: 50px;
+    z-index: 1;
   }
 
   .leovegas {
     display: flex;
-    background-color: #F3F3F3;
+    background: rgba(222,147,67,1);
+    background: -moz-linear-gradient(left, rgba(222,147,67,1) 0%, rgba(225,109,81,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(222,147,67,1)), color-stop(100%, rgba(225,109,81,1)));
+    background: -webkit-linear-gradient(left, rgba(222,147,67,1) 0%, rgba(225,109,81,1) 100%);
+    background: -o-linear-gradient(left, rgba(222,147,67,1) 0%, rgba(225,109,81,1) 100%);
+    background: -ms-linear-gradient(left, rgba(222,147,67,1) 0%, rgba(225,109,81,1) 100%);
+    background: linear-gradient(to right, rgba(222,147,67,1) 0%, rgba(225,109,81,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de9343', endColorstr='#e16d51', GradientType=1 );
   }
 
   .leovegas h1 {
     text-transform: uppercase;
-    color: #FD5C3C;
+    color: #FFF;
   }
 
   .leovegas h2 {
+    color: #fff;
+    opacity: 0.7;
     }
 
   .leovegas p {
@@ -125,6 +153,7 @@ color: #000;
   .leovegas img {
     height: 500px;
     margin-right: 50px;
+    opacity: 0.3;
   }
 
   .lifesymb {
