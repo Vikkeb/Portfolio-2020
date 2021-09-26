@@ -213,7 +213,8 @@
 .modaal-content-container img {
 	margin-top: 25px;
 	padding: 10px;
-	width: 100%;
+	width: calc(100% - 2em);
+	margin: 1em;
 	background: #fff;
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
