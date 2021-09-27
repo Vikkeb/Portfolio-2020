@@ -86,6 +86,10 @@ color: #000;
   text-align: center;
 }
 
+.send_button {
+  width: 90px;
+}
+
 @media all and (min-width: 1001px) {
 
   .scania {
