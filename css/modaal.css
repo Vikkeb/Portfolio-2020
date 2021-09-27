@@ -217,7 +217,13 @@
 	margin: 1em;
 	background: #fff;
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	transition: all .2s ease-in-out;
 }
+
+.modaal-content-container img:hover {
+	transform: scale(1.05);
+}
+
 
 .modaal-content-container h1 {
 	font-size: 48px;
