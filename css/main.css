@@ -103,7 +103,7 @@ body {
 
 @media all and (min-width: 1001px) {
   .Section h1 {
-    font-size: 100px;
+    font-size: 5vw;
   }
 
   .scania {
@@ -901,8 +901,15 @@ body {
   margin: 20px 0px 20px 0px;
 }
 
+.udemy {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+
+.udemy img {max-height: 75px;}
+
 .summary {
-  height: 74px;
+  /* height: 74px; */
   margin-left: 25px;
   width: 200px;
 }

@@ -6,6 +6,7 @@ $('.lifesymb_btn').modaal();
 $('.leovegas_btn').modaal();
 $('.nallebudet_btn').modaal();
 $('.solarsupply_btn').modaal();
+$('.golf_btn').modaal();
 
 
 
