@@ -209,7 +209,7 @@ body {
     z-index: 1;
   }
 
-  .solarsupply {
+  .portfolio-solarsupply {
     display: flex;
     background: url(https://res.cloudinary.com/vikkeb/image/upload/q_auto:good/v1632690293/portfolio2020/Rectangle_30.webp);
     background-position: center;
@@ -830,6 +830,11 @@ body {
 }
 
 .Scania {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+
+.Solarsupply {
   display: flex;
   margin: 20px 0px 20px 0px;
 }
