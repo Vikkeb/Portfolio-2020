@@ -249,23 +249,23 @@ body {
     color: #fff;
   }
 
-  .solarsupply h1 {
+  .portfolio-solarsupply h1 {
     font-weight: 400;
     color: #000;
     text-transform: uppercase;
   }
 
-  .solarsupply h2 {
+  .portfolio-solarsupply h2 {
     font-weight: 400;
     color: #000;
   }
 
-  .solarsupply p {
+  .portfolio-solarsupply p {
     color: #000;
     margin-top: 25px;
   }
 
-  .solarsupply img {
+  .portfolio-solarsupply img {
     width: 100%;
     max-width: 350px;
     max-height: 350px;
