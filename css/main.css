@@ -50,6 +50,13 @@ body {
   height: 600px;
 }
 
+.experience-section {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
 .Section h1 {
   font-size: 10vw;
   font-family: "Work Sans", sans-serif;
