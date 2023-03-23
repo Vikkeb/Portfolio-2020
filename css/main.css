@@ -77,7 +77,6 @@ body {
 
 .Section a {
   text-decoration: none;
-  color: #000;
 }
 
 .section-content {
@@ -140,6 +139,7 @@ body {
 
   .scania_btn {
     background-color: #95a9d0;
+    color: #000;
   }
 
   .golf {
@@ -214,6 +214,11 @@ body {
     max-height: 350px;
     align-self: center;
     z-index: 1;
+  }
+
+  .golf_btn {
+    background-color: rgb(132 150 57);
+    color: #fff;
   }
 
   .portfolio-solarsupply {
@@ -299,6 +304,11 @@ body {
     z-index: 1;
   }
 
+  .ericsson_btn {
+    background-color: #ffffff;
+    color: #464d66;
+  }
+
   .lifesymb {
     display: flex;
   }
@@ -380,6 +390,11 @@ body {
     max-height: 350px;
     align-self: center;
     z-index: 1;
+  }
+
+  .lifesymb_btn {
+    background-color: #d9d9d9;
+    color: #616161;
   }
 
   .about-wrapper img {
