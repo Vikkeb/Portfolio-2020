@@ -138,8 +138,13 @@ body {
   }
 
   .scania_btn {
-    background-color: #95a9d0;
-    color: #000;
+    background-color: rgb(98 129 191 / 60%);
+    color: #fff;
+  }
+
+  .scania_btn:hover {
+    background-color: #6281bf;
+    color: #fff;
   }
 
   .golf {
@@ -217,7 +222,12 @@ body {
   }
 
   .golf_btn {
-    background-color: rgb(132 150 57);
+    background-color: rgb(131 150 57);
+    color: #fff;
+  }
+
+  .golf_btn:hover {
+    background-color: rgb(92 104 39);
     color: #fff;
   }
 
@@ -230,8 +240,13 @@ body {
   }
 
   .solarsupply_btn {
-    background-color: #181210;
-    color: #fff !important;
+    background-color: #949494;
+    color: #fff;
+  }
+
+  .solarsupply_btn:hover {
+    background-color: #5c5c5c;
+    color: #fff;
   }
 
   .solarsupply h1 {
@@ -305,8 +320,13 @@ body {
   }
 
   .ericsson_btn {
-    background-color: #ffffff;
-    color: #464d66;
+    background-color: #6380bf;
+    color: #fff;
+  }
+
+  .ericsson_btn:hover {
+    background-color: #7c97d3;
+    color: #fff;
   }
 
   .lifesymb {
@@ -368,6 +388,11 @@ body {
 
   .lifesymb_btn {
     background-color: #d9d9d9;
+  }
+
+  .lifesymb_btn:hover {
+    background-color: #9f9f9f;
+    color: #202020;
   }
 
   .lifesymb h1 {
