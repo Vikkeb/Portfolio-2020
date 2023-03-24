@@ -136,7 +136,7 @@ body {
 
 @media all and (min-width: 1001px) {
   .Section h1 {
-    font-size: calc(50px + 5vw);
+    font-size: calc(50px + 2vw);
     font-family: "Work Sans", sans-serif;
   }
   
