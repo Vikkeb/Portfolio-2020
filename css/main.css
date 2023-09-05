@@ -155,6 +155,27 @@ body {
   color: #202020;
 }
 
+.tools {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.tool-row {
+  display: flex;
+  align-items: center;
+}
+
+.tool-item {
+  flex: 1;
+}
+
+.tool-item p {
+  margin: 0;
+  white-space: nowrap; /* Prevent line breaks within tool items */
+}
+
+
 @media all and (min-width: 1001px) {
   .Section h1 {
     font-size: 5rem;
@@ -1311,7 +1332,7 @@ body {
 }
 
 .tools p {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .img-gallery {
