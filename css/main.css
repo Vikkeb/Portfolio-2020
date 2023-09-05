@@ -84,6 +84,27 @@ body {
   width: 90px;
 }
 
+.goconnect_btn {
+  background-color: rgb(255 255 255);
+  color: #000;
+}
+
+.goconnect_btn:hover {
+  background-color: #da7e15;
+  color: #fff;
+}
+
+.seropian_btn {
+  background-color: rgb(255 255 255);
+  color: #000;
+}
+
+.seropian_btn:hover {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+
 .scania_btn {
   background-color: rgb(98 129 191 / 60%);
   color: #fff;
@@ -136,7 +157,7 @@ body {
 
 @media all and (min-width: 1001px) {
   .Section h1 {
-    font-size: calc(50px + 2vw);
+    font-size: calc(35px + 2vw);
     font-family: "Work Sans", sans-serif;
   }
   
@@ -145,13 +166,73 @@ body {
     text-transform: capitalize;
     color: #949494;
     font-weight: 300;
-    font-size: 2vw;
+    font-size: calc(15px + 1vw);
   }
   
   .Section p {
     font-size: 18px;
     line-height: 150%;
     font-weight: 300;
+  }
+
+  .goconnect {
+    display: flex;
+    background: linear-gradient(180deg, #FB8607 0%, #F8A243 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .goconnect h1 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .goconnect h2 {
+    color: #fff;
+  }
+
+  .goconnect p {
+    color: #fff;
+    margin-top: 25px;
+  }
+
+  .goconnect img {
+    width: 100%;
+    max-width: 540px;
+    max-height: 450px;
+    align-self: center;
+    z-index: 1;
+  }
+
+  .seropian {
+    display: flex;
+    background: url(https://res.cloudinary.com/vikkeb/image/upload/v1693910211/bild_6_aci5fy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .seropian h1 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .seropian h2 {
+    color: #fff;
+  }
+
+  .seropian p {
+    color: #fff;
+    margin-top: 25px;
+  }
+
+  .seropian img {
+    width: 100%;
+    max-width: 540px;
+    max-height: 450px;
+    align-self: center;
+    z-index: 1;
   }
 
   .scania {
@@ -441,6 +522,61 @@ body {
     font-weight: 300;
   }
 
+  .goconnect {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #FB8607 0%, #F8A243 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .goconnect h1 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .goconnect h2 {
+    color: #fff;
+  }
+
+  .goconnect p {
+    color: #fff;
+    margin-top: 25px;
+  }
+
+  .goconnect img {
+    display: none;
+  }
+
+  .seropian {
+    display: flex;
+    flex-direction: column;
+    background: url(https://res.cloudinary.com/vikkeb/image/upload/v1693910211/bild_6_aci5fy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .seropian h1 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .seropian h2 {
+    color: #fff;
+  }
+
+  .seropian p {
+    color: #fff;
+    margin-top: 25px;
+  }
+
+  .seropian img {
+    display: none;
+  } 
+
   .scania {
     display: flex;
     flex-direction: column;
@@ -715,6 +851,60 @@ body {
     font-size: 18px;
     line-height: 150%;
     font-weight: 300;
+  }
+
+  .goconnect {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #FB8607 0%, #F8A243 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .goconnect h1 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .goconnect h2 {
+    color: #fff;
+  }
+
+  .goconnect p {
+    color: #fff;
+    margin-top: 25px;
+  }
+
+  .goconnect img {
+    display: none;
+  }
+
+  .seropian {
+    display: flex;
+    flex-direction: column;
+    background: url(https://res.cloudinary.com/vikkeb/image/upload/v1693910211/bild_6_aci5fy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .seropian h1 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .seropian h2 {
+    color: #fff;
+  }
+
+  .seropian p {
+    color: #fff;
+    margin-top: 25px;
+  }
+
+  .seropian img {
+    display: none;
   }
 
   .scania {
