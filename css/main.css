@@ -208,7 +208,7 @@ body {
   .seropian {
     display: flex;
     background: url(https://res.cloudinary.com/vikkeb/image/upload/v1693910211/bild_6_aci5fy.jpg);
-    background-position: center;
+    background-position: 50% 15%;
     background-repeat: no-repeat;
     background-size: cover;
   }
