@@ -237,7 +237,7 @@ body {
 
   .scania {
     display: flex;
-    background: url(https://res.cloudinary.com/vikkeb/image/upload/q_auto:good/v1632757937/portfolio2020/image_1.webp);
+    background: url(https://res.cloudinary.com/vikkeb/image/upload/v1693911892/1681303308123_1_fhl1oy.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,6 +263,14 @@ body {
     max-height: 350px;
     align-self: center;
     z-index: 1;
+  }
+
+  .scania-gallery img {
+    padding: 5px;
+  }
+
+  .img-gallery a:not(:last-child) {
+    margin-right: 10px;
   }
 
   .golf {
@@ -580,7 +588,7 @@ body {
   .scania {
     display: flex;
     flex-direction: column;
-    background: url(https://res.cloudinary.com/vikkeb/image/upload/q_auto:good/v1632757937/portfolio2020/image_1.webp);
+    background: url(https://res.cloudinary.com/vikkeb/image/upload/v1693911892/1681303308123_1_fhl1oy.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -910,7 +918,7 @@ body {
   .scania {
     display: flex;
     flex-direction: column;
-    background: url(https://res.cloudinary.com/vikkeb/image/upload/q_auto:good/v1632757937/portfolio2020/image_1.webp);
+    background: url(https://res.cloudinary.com/vikkeb/image/upload/v1693911892/1681303308123_1_fhl1oy.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1308,4 +1316,5 @@ body {
 .img-gallery {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
