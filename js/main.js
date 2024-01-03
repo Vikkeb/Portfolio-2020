@@ -9,11 +9,13 @@ jQuery(document).ready(function($) {
   }
 
   console.log('Checking OverlayScrollbars script...');
-  
+
   if (typeof OverlayScrollbars === 'undefined') {
+    console.log('Script not loaded yet'); // Add this line
     document.querySelector('script[src*="overlayscrollbars"]').addEventListener('load', initializeScrollbarsAndDialog);
   } else {
     initializeScrollbarsAndDialog();
   }
 });
+
 
