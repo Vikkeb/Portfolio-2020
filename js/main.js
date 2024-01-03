@@ -7,12 +7,12 @@ jQuery(document).ready(function($) {
     console.log('OverlayScrollbars is not loaded yet');
     document.querySelector('script[src*="overlayscrollbars"]').addEventListener('load', function() {
       console.log('OverlayScrollbars script has loaded');
-      const osInstance = new OverlayScrollbars('body');
+      const osInstance = new OverlayScrollbars(document.body);
       const dialog = new A11yDialog(element);
     });
   } else {
     console.log('OverlayScrollbars is already loaded');
-    const osInstance = new OverlayScrollbars('body');
+    const osInstance = new OverlayScrollbars(document.body);
     const dialog = new A11yDialog(element);
   }
 });
