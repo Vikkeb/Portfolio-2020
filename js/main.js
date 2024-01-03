@@ -1,15 +1,5 @@
 jQuery(document).ready(function($) {
 
-  $(window).scroll(function() {
-    // Toggle 'show' class based on the scroll position
-    btn.toggleClass('show', $(window).scrollTop() > 300);
-  });
-
-  btn.on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({scrollTop: 0}, '300');
-  });
-
   // simple initialization with an element
   const osInstance = OverlayScrollbars(document.querySelector('body'), {});
 
