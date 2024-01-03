@@ -7,6 +7,10 @@
 @import "button.css";
 @import "fonts.css";
 
+.os-scrollbar-vertical {
+  top: 120px !important;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   display: flex;
