@@ -21,6 +21,8 @@ body {
 
 
 .content {
+  align-self: center;
+  margin-top: 180px;
   width: 80%;
   max-width: 1024px;
   height: 100%;
