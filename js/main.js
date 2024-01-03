@@ -1,20 +1,19 @@
 jQuery(document).ready(function($) {
   const element = document.getElementById('goconnect');
 
-  function initializeScrollbarsAndDialog() {
-    console.log('Initializing OverlayScrollbars and A11yDialog');
-
-    const osInstance = new OverlayScrollbars('body');
-    const dialog = new A11yDialog(element);
-  }
-
   console.log('Checking OverlayScrollbars script...');
 
   if (typeof OverlayScrollbars === 'undefined') {
-    console.log('Script not loaded yet'); // Add this line
-    document.querySelector('script[src*="overlayscrollbars"]').addEventListener('load', initializeScrollbarsAndDialog);
+    console.log('OverlayScrollbars is not loaded yet');
+    document.querySelector('script[src*="overlayscrollbars"]').addEventListener('load', function() {
+      console.log('OverlayScrollbars script has loaded');
+      const osInstance = new OverlayScrollbars('body');
+      const dialog = new A11yDialog(element);
+    });
   } else {
-    initializeScrollbarsAndDialog();
+    console.log('OverlayScrollbars is already loaded');
+    const osInstance = new OverlayScrollbars('body');
+    const dialog = new A11yDialog(element);
   }
 });
 
