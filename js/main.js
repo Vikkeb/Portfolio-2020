@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
   const element = document.getElementById('goconnect');
 
   // Initialize OverlayScrollbars on the element after the document is ready
-  const osInstance = new OverlayScrollbars(element, {});
+  const osInstance = new OverlayScrollbars('body');
 
   // Instantiate a new A11yDialog module
   const dialog = new A11yDialog(element);
