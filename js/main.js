@@ -1,9 +1,11 @@
 $(document).ready(function() {
 
-    const element = document.getElementById('goconnect');
+  const element = document.getElementById('goconnect');
 
-    const osInstance = OverlayScrollbars(document.querySelector('body'), {});
-    
-    const dialog = new A11yDialog(element);
-    
+  // Initialize OverlayScrollbars
+  const osInstance = new OverlayScrollbars(document.querySelector('#content'), {});
+  
+  // Initialize A11yDialog
+  const dialog = new A11yDialog(element);
+  
 });

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.4.6/styles/overlayscrollbars.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.0/css/OverlayScrollbars.min.css" />
     <link rel="stylesheet" href="css/default-skin/default-skin.css" />   
   </head>
 </html>
@@ -29,7 +29,7 @@
         <a href="contact.html">Contact</a>
       </div>
     </div>
-    <div id="content">
+    <div id="content" data-overlayscrollbars-initialize>
       <div class="Section goconnect">
         <div class="section-content">
           <h1>Go Connect</h1>
@@ -46,7 +46,7 @@
         </div>
 
         <!-- 1. The dialog container -->
-        <div id="goconnect-dialog" aria-labelledby="goconnect" aria-hidden="true">
+        <div id="modal-goconnect" aria-labelledby="goconnect" aria-hidden="true">
         <!-- 2. The dialog overlay -->
         <div data-a11y-dialog-hide></div>
         <!-- 3. The actual dialog -->
@@ -56,7 +56,7 @@
             &times;
           </button>
           <!-- 5. The dialog title -->
-          <h1 id="goconnect">Your dialog title</h1>
+          <h1 id="goconnect">Go Connect</h1>
           <!-- 6. Dialog content -->
         </div>
         
