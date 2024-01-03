@@ -14,6 +14,7 @@ jQuery(document).ready(function($) {
     $('html, body').animate({scrollTop: 0}, '300');
   });
 
-  // Initialize OverlayScrollbars for the body element
-  OverlayScrollbars(document.querySelector("body"), {});
+  // simple initialization with an element
+  const osInstance = OverlayScrollbars(document.querySelector('body'), {});
+
 });
