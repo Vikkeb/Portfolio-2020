@@ -22,6 +22,7 @@ body {
 
 .content {
   width: 80%;
+  max-width: 1024px;
   height: 100%;
   padding: 30px;
   background: #F3F3F3;
