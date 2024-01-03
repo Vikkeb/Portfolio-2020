@@ -4,6 +4,8 @@ jQuery(document).ready(function($) {
 
   // Function to initialize OverlayScrollbars and A11yDialog
   function initializeScrollbarsAndDialog() {
+    console.log('Initializing OverlayScrollbars and A11yDialog');
+
     // Initialize OverlayScrollbars on the element after the document is ready
     const osInstance = new OverlayScrollbars('body');
 
