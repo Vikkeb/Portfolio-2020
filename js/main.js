@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
 
   console.log(OverlayScrollbars); // Log OverlayScrollbars
   console.log(A11yDialog); // Log A11yDialog
