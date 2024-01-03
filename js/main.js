@@ -1,4 +1,9 @@
 jQuery(document).ready(function($) {
+
+  console.log(OverlayScrollbars); // Log OverlayScrollbars
+  console.log(A11yDialog); // Log A11yDialog
+
+
   const element = document.getElementById('goconnect');
 
   console.log('Checking OverlayScrollbars script...');
